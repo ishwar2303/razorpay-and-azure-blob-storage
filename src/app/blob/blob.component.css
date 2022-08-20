@@ -1,0 +1,63 @@
+.hidden {
+    display: none;
+}
+
+.file-upload {
+    border: 5px dotted blue;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    cursor: pointer;
+    font-size: 27px;
+}
+
+form {
+    margin: 20px;
+}
+.file-name {
+    color: green;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+img {
+}
+
+.image-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    position: relative;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.delete-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    z-index: 1;
+    background: red;
+    color: white;
+    border-radius: 7px;
+    padding: 7px 12px;
+    border: none
+}

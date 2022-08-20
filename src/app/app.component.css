@@ -1,0 +1,38 @@
+.razor-pay {
+    height: 100vh;
+    width: 100%;
+    background: rgb(237, 237, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-col {
+    margin-right: 10px;
+    flex: 1;
+}
+
+.mat-form-field {
+    width: 100%;
+}
+
+.form-col:last-child {
+    margin-right: 0;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}

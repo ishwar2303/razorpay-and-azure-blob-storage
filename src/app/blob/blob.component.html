@@ -1,0 +1,16 @@
+<h1>Upload File To Azure Blob Storage</h1>
+<div class="image-wrapper">
+    <div class="image-container" *ngFor="let blob of blobs; let i = index" >
+        <img [src]="blobPath + blob" />
+        <button class="delete-button" (click)="deleteBlob(blob)">Delete</button>
+    </div>
+</div>
+<form action="">
+
+    <div class="file-upload" (click)="chooseFile()">
+        <div>Choose File</div>
+        <div class="file-name">{{selectedFile}}</div>
+    </div>
+
+    <input id="file" class="hidden" type="file" (change)="upload($any($event.target).files)">
+</form>
